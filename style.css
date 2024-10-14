@@ -7,7 +7,7 @@ body {
     /*to avoid image repetition if you have a background image, this will take the entire viewport */
     height:100vh; 
 }
-    
+
 .container{
     background: white;
     opacity: 0.90;
@@ -27,7 +27,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
 }
-    
+
 button {
     /*border: none; */
     border: 1px solid #211717;
@@ -39,7 +39,7 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
 }
-    
+
 #increment-btn {
     background: #2C2891;;
 }
@@ -47,3 +47,15 @@ button {
 #save-btn {
     background: #660063;
 }   
+
+#decrement-btn {
+    background: tan;
+}
+
+#reset-btn {
+    background: red;
+}
+
+#error {
+    color: red;
+}
